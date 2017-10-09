@@ -12,7 +12,7 @@ Aggregation of online tutorials into a single codebase for learning RESTful AI d
 * [REST APIs: The concepts and applications](http://polyglot.ninja/rest-apis-concepts-applications/)
 * [REST API Best Practices: Python & Flask Tutorial](http://polyglot.ninja/rest-api-best-practices-python-flask-tutorial/) _also uses this link: [Flask API Quickstart](http://flask-restful.readthedocs.io/en/0.3.5/quickstart.html)_
 
-## TBD Tutorials
+### TBD Tutorials
 * [Securing REST APIs: Basic HTTP Authentication with Python / Flask](http://polyglot.ninja/securing-rest-apis-basic-http-authentication-python-flask/)
 * [JWT Authentication with Python and Flask](http://polyglot.ninja/jwt-authentication-python-flask/)
 * [Django: Building REST APIs](http://polyglot.ninja/django-building-rest-apis/)
