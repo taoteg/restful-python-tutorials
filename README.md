@@ -22,15 +22,16 @@ _Additional tutorials are linked below._
 ### General References
 
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
+* [cURL Manual](https://curl.haxx.se/docs/manual.html)
+* [cURL automation](https://curl.haxx.se/docs/httpscripting.html)
+* [cURL Man Page](https://curl.haxx.se/docs/manpage.html)
 * [HTTP Status Codes](https://httpstatuses.com/)
 * [HTTP Status Cats](https://http.cat/)
 * [HTTP Status Dogs](https://httpstatusdogs.com/)
 
 ### Development Tools & Utils
 
-* [cURL Manual](https://curl.haxx.se/docs/manual.html)
-* [cURL automation](https://curl.haxx.se/docs/httpscripting.html)
-* [cURL Man Page](https://curl.haxx.se/docs/manpage.html)
+* [cURL](https://curl.haxx.se/)
 * [HTTPie](https://httpie.org/)
 * [Postman](https://www.getpostman.com/)
 
