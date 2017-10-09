@@ -19,8 +19,20 @@ _Additional tutorials are linked below._
 
 ## Additional References
 
+### Development Tools & Utils
+* [cURL Manual](https://curl.haxx.se/docs/manual.html)
+* [cURL automation](https://curl.haxx.se/docs/httpscripting.html)
+* [cURL Man Page](https://curl.haxx.se/docs/manpage.html)
+* [HTTPie](https://httpie.org/)
+* [Postman](https://www.getpostman.com/)
+
+### Flask
+
 * http://flask.pocoo.org/
 * http://www.flaskapi.org/
+
+### Django
+
 * https://www.djangoproject.com/
 https://docs.djangoproject.com/en/1.10/intro/tutorial01/
 * http://www.django-rest-framework.org/
