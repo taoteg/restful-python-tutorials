@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 
 # Wrap the App in an API.
-api = Api(app)
+api = Api(app, prefix="/api/v1")
 
 
 # Define dummy data for testing API.
