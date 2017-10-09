@@ -6,15 +6,15 @@ Starting point for minimal Flask API.
 from flask import Flask
 from flask_restful import Resource, Api
 from flask_restful.reqparse import RequestParser
+from flask_httpauth import HTTPBasicAuth
 
 
 # Cra=eate a new Flask App.
 app = Flask(__name__)
-
-
 # Wrap the App in an API.
 api = Api(app, prefix="/api/v1")
-
+# Instantiate BasicAuth for App.
+auth = HTTPBasicAuth()
 
 # Define dummy data for testing API.
 users = [
@@ -83,6 +83,7 @@ class Subscriber(Resource):
 
 
 class PrivateResource(Resource):
+    @auth.login_required
     def get(self):
         return {"meaning_of_life":42}
 
