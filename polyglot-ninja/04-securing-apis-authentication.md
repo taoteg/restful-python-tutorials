@@ -161,6 +161,6 @@ if __name__ == '__main__':
 
 As discussed in the last section, it’s not recommended to use basic http authentication in open / public systems. However, it is good to know how http basic auth works and it’s simplicity makes beginners grasp the concept of authentication / API security quite easily.
 
-You might be wondering – “If we don’t use http auth, then what do we use instead to secure our REST APIs?”. In our next tutorial on REST APIs, we would demonstrating how we can use JSON Web Tokens aka JWT to secure our APIs. Can’t wait for that long? Go ahead and read the introduction.
+You might be wondering – “If we don’t use http auth, then what do we use instead to secure our REST APIs?”. In our next tutorial on REST APIs, we would demonstrating how we can use [JSON Web Tokens](https://jwt.io/) aka JWT to secure our APIs. Can’t wait for that long? Go ahead and read the introduction.
 
 And don’t forget to subscribe to the mailing list so when I write the next post, you get a notification!

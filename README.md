@@ -39,6 +39,7 @@ https://docs.djangoproject.com/en/1.10/intro/tutorial01/
 * [HTTP Status Cats](https://http.cat/)
 * [HTTP Status Dogs](https://httpstatusdogs.com/)
 * [DO NOT USE Basic Auth Ever](https://security.stackexchange.com/questions/988/is-basic-auth-secure-if-done-over-https)
+* [JSON Web Tokens](https://jwt.io/)
 
 ### Development Tools & Utils
 
