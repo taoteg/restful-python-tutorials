@@ -11,9 +11,11 @@ Aggregation of online tutorials into a single codebase for learning RESTful AI d
 * [Python: Learning Resources and Guidelines](http://polyglot.ninja/python-learning-resources-guidelines/)
 * [REST APIs: The concepts and applications](http://polyglot.ninja/rest-apis-concepts-applications/)
 * [REST API Best Practices: Python & Flask Tutorial](http://polyglot.ninja/rest-api-best-practices-python-flask-tutorial/) _also uses this link: [Flask API Quickstart](http://flask-restful.readthedocs.io/en/0.3.5/quickstart.html)_
+* [Understanding JWT](Understanding JWT (JSON Web Tokens))
+* [Securing REST APIs: Basic HTTP Authentication with Python / Flask](http://polyglot.ninja/securing-rest-apis-basic-http-authentication-python-flask/)
 
 ### TBD Tutorials
-* [Securing REST APIs: Basic HTTP Authentication with Python / Flask](http://polyglot.ninja/securing-rest-apis-basic-http-authentication-python-flask/)
+
 * [JWT Authentication with Python and Flask](http://polyglot.ninja/jwt-authentication-python-flask/)
 * [Django: Building REST APIs](http://polyglot.ninja/django-building-rest-apis/)
 * [Django REST Framework: Getting Started](http://polyglot.ninja/django-rest-framework-getting-started/)
@@ -40,6 +42,8 @@ https://docs.djangoproject.com/en/1.10/intro/tutorial01/
 * [HTTP Status Dogs](https://httpstatusdogs.com/)
 * [DO NOT USE Basic Auth Ever](https://security.stackexchange.com/questions/988/is-basic-auth-secure-if-done-over-https)
 * [JSON Web Tokens](https://jwt.io/)
+* [JSON Web Token Libraries](https://jwt.io/#libraries)
+* [PyJWT](https://github.com/jpadilla/pyjwt/)
 
 ### Development Tools & Utils
 
