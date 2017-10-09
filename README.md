@@ -4,7 +4,7 @@
 
 Aggregation of online tutorials into a single codebase for learning RESTful AI development practices using Python 2, Python 3, Flask and Django.
 
-## Polyglot Programmer Tutorials
+## [Polyglot Ninja Tutorials](http://polyglot.ninja/)
 * [REST APIs: The concepts and applications](http://polyglot.ninja/rest-apis-concepts-applications/)
 * [REST API Best Practices: Python & Flask Tutorial](http://polyglot.ninja/rest-api-best-practices-python-flask-tutorial/)
 * [Securing REST APIs: Basic HTTP Authentication with Python / Flask](http://polyglot.ninja/securing-rest-apis-basic-http-authentication-python-flask/)
