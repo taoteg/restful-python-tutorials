@@ -28,7 +28,7 @@ https://docs.djangoproject.com/en/1.10/intro/tutorial01/
 * https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-1
 * https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-2
 
-## Additional References
+## References
 
 ### General References
 
