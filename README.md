@@ -12,7 +12,7 @@ Aggregation of online tutorials into a single codebase for learning RESTful AI d
 * Django: Building REST APIs
 * Django REST Framework: Getting Started
 
-Online tutorials are linked below.
+_Online tutorials are linked below._
 
 ## References
 
