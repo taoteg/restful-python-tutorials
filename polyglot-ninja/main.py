@@ -82,11 +82,16 @@ class Subscriber(Resource):
         # return None, 204
 
 
+class PrivateResource(Resource):
+    def get(self):
+        return {"meaning_of_life":42}
+
+
 # Define Routes to the API Resources.
 api.add_resource(HelloWorld, '/')
 api.add_resource(SubscriberCollection, '/subscribers')
 api.add_resource(Subscriber, '/subscribers/<int:id>')
-
+api.add_resource(PrivateResource, '/private')
 
 # Run the Flask API App.
 if __name__ == '__main__':
