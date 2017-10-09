@@ -1,6 +1,6 @@
 # REST APIs: The concepts and applications
 
-_ Written by MASNUNon MAY 5, 2017 _
+_Written by MASNUNon MAY 5, 2017_
 
 If you are into web programming you might have come across the terms “REST API” or “RESTful” and you might have felt curious as to what they really are. In this post, we shall take our time to go through some of the concepts / ideas behind REST and it’s applications.
 
