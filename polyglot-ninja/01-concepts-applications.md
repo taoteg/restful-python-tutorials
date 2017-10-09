@@ -43,17 +43,17 @@ We can broadly classify the resources into two categories – “collections” 
 
 _For Collections: (/user)_
 
-GET – List all users
-POST – Create a new user
-PUT – Replace all users with these new users
-DELETE – Delete all users
+* GET – List all users
+* POST – Create a new user
+* PUT – Replace all users with these new users
+* DELETE – Delete all users
 
 _For Elements: (/user/123)_
 
-GET – Retrieve data about user with ID 123
-POST – Generally not used and throws errors but can be used if the resource itself is a nested collection. In that case creates new element within that collection.
-PUT – Replace the user data
-DELETE – Delete the user
+* GET – Retrieve data about user with ID 123
+* POST – Generally not used and throws errors but can be used if the resource itself is a nested collection. In that case creates new element within that collection.
+* PUT – Replace the user data
+* DELETE – Delete the user
 
 ## Is this Official?
 
