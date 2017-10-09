@@ -21,7 +21,6 @@ Aggregation of online tutorials into a single codebase for learning RESTful AI d
 ## Additional Tutorials
 
 https://docs.djangoproject.com/en/1.10/intro/tutorial01/
-* http://www.django-rest-framework.org/
 * https://realpython.com/blog/python/test-driven-development-of-a-django-restful-api/
 * https://micropyramid.com/blog/introduction-to-api-development-with-django-rest-framework/
 * https://medium.com/@ktruong008/building-an-api-with-django-rest-framework-and-class-based-views-75b369b30396
@@ -39,6 +38,7 @@ https://docs.djangoproject.com/en/1.10/intro/tutorial01/
 * [HTTP Status Codes](https://httpstatuses.com/)
 * [HTTP Status Cats](https://http.cat/)
 * [HTTP Status Dogs](https://httpstatusdogs.com/)
+* [DO NOT USE Basic Auth Ever](https://security.stackexchange.com/questions/988/is-basic-auth-secure-if-done-over-https)
 
 ### Development Tools & Utils
 
@@ -48,9 +48,11 @@ https://docs.djangoproject.com/en/1.10/intro/tutorial01/
 
 ### Flask
 
-* http://flask.pocoo.org/
-* http://www.flaskapi.org/
+* [Flask Framework](http://flask.pocoo.org/)
+* [Flask API](http://www.flaskapi.org/)
+* [Flask HTTPAuth](https://github.com/miguelgrinberg/Flask-HTTPAuth)
 
 ### Django
 
-* https://www.djangoproject.com/
+* [Django Framework](https://www.djangoproject.com/)
+* [Django Rest Framework - DRF](http://www.django-rest-framework.org/)

@@ -23,12 +23,24 @@ users = [
     {"email":"thethirduser@mail.com", "name":"thethirduser", "id":3}
 ]
 
+# Simple password login for testing.
+USER_DATA = {
+    "admin":"SecretPassword"
+}
+
 
 # Helper Method to get user by ID.
 def get_user_by_id(user_id):
     for x in users:
         if x.get("id") == int(user_id):
             return x
+
+
+@auth.verify_password
+def verify(username, password):
+    if not (username and password):
+        return False
+    return USER_DATA.get(username) == password
 
 
 # Define RequestParser object.
