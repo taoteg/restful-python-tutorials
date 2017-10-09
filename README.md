@@ -4,10 +4,15 @@
 
 Aggregation of online tutorials into a single codebase for learning RESTful AI development practices using Python 2, Python 3, Flask and Django.
 
-Online tutorials are linked below under references.
-
 ## Polyglot Programmer Tutorials
-### REST APIs: The concepts and applications
+* REST APIs: The concepts and applications
+* REST API Best Practices: Python & Flask Tutorial
+* Securing REST APIs: Basic HTTP Authentication with Python / Flask
+* JWT Authentication with Python and Flask
+* Django: Building REST APIs
+* Django REST Framework: Getting Started
+
+Online tutorials are linked below.
 
 ## References
 
