@@ -14,7 +14,7 @@ Aggregation of online tutorials into a single codebase for learning RESTful AI d
 
 _Additional tutorials are linked below._
 
-## References
+## Additional References
 
 * http://flask.pocoo.org/
 * http://www.flaskapi.org/
