@@ -41,19 +41,19 @@ subscriber_request_parser.add_argument("id", type=int, required=True, help="Plea
 # Create API Resources by extending Resource.
 class HelloWorld(Resource):
     def get(self):
-        return {'hello': 'world'}
+        return {'hello': 'world'}, 200
 
 
 class SubscriberCollection(Resource):
     def get(self):
         # return {"msg":"All Subscribers..."}
-        return users
+        return users, 200
 
     def post(self):
         # return {"msg":"We will create new subscribers here."}
         args = subscriber_request_parser.parse_args()
         users.append(args)
-        return {"msg":"Subscriber Added. ", "subscriber_data": args}, 201
+        return {"msg":"Subscriber Added.", "subscriber_data": args}, 201
 
 
 class Subscriber(Resource):
@@ -61,8 +61,8 @@ class Subscriber(Resource):
         # return {"msg":"Details about user id {}".format(id)}
         user = get_user_by_id(id)
         if not user:
-            return {"Error":"User not found"}
-        return user
+            return {"Error":"User not found"}, 404
+        return user, 200
 
     def put(self, id):
         # return {"msg":"Update user id {}".format(id)}
@@ -71,14 +71,14 @@ class Subscriber(Resource):
         if user:
             users.remove(user)
             users.append(args)
-        return args
+        return args, 200
 
     def delete(self, id):
         # return {"msg":"Delete user id {}".format(id)}
         user = get_user_by_id(id)
         if user:
             users.remove(user)
-        return {"msg":"User Deleted"}, 204
+        return {"msg":"User Deleted."}, 204
         # return None, 204
 
 
