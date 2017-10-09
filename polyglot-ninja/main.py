@@ -5,6 +5,7 @@ Starting point for minimal Flask API.
 # Import package dependencies.
 from flask import Flask
 from flask_restful import Resource, Api
+from flask_restful.reqparse import RequestParser
 
 
 # Cra=eate a new Flask App.
@@ -23,6 +24,13 @@ users = [
 ]
 
 
+# Define RequestParser object.
+subscriber_request_parser = RequestParser(bundle_errors=True)
+subscriber_request_parser.add_argument("name", type=str, required=True, help="Name has to be a valid string")
+subscriber_request_parser.add_argument("email", required=True)
+subscriber_request_parser.add_argument("id", type=int, required=True, help="Please enter a valid integer as ID")
+
+
 # Create API Resources by extending Resource.
 class HelloWorld(Resource):
     def get(self):
@@ -34,7 +42,10 @@ class SubscriberCollection(Resource):
         return {"msg":"All Subscribers..."}
 
     def post(self):
-        return {"msg":"We will create new subscribers here."}
+        # return {"msg":"We will create new subscribers here."}
+        args = subscriber_request_parser.parse_args()
+        users.append(args)
+        return {"msg":"Subscriber Added. ", "subscriber_data": args}
 
 
 class Subscriber(Resource):
