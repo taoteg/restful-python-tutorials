@@ -53,7 +53,7 @@ class SubscriberCollection(Resource):
         # return {"msg":"We will create new subscribers here."}
         args = subscriber_request_parser.parse_args()
         users.append(args)
-        return {"msg":"Subscriber Added. ", "subscriber_data": args}
+        return {"msg":"Subscriber Added. ", "subscriber_data": args}, 201
 
 
 class Subscriber(Resource):
@@ -78,7 +78,8 @@ class Subscriber(Resource):
         user = get_user_by_id(id)
         if user:
             users.remove(user)
-        return {"message":"User Deleted"}
+        return {"msg":"User Deleted"}, 204
+        # return None, 204
 
 
 # Define Routes to the API Resources.

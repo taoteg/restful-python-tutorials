@@ -25,6 +25,9 @@ _Additional tutorials are linked below._
 * [cURL Man Page](https://curl.haxx.se/docs/manpage.html)
 * [HTTPie](https://httpie.org/)
 * [Postman](https://www.getpostman.com/)
+* [HTTP Status Codes](https://httpstatuses.com/)
+* [HTTP Status Cats](https://http.cat/)
+* [HTTP Status Dogs](https://httpstatusdogs.com/)
 
 ### Flask
 
