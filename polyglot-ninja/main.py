@@ -24,6 +24,13 @@ users = [
 ]
 
 
+# Helper Method to get user by ID.
+def get_user_by_id(user_id):
+    for x in users:
+        if x.get("id") == int(user_id):
+            return x
+
+
 # Define RequestParser object.
 subscriber_request_parser = RequestParser(bundle_errors=True)
 subscriber_request_parser.add_argument("name", type=str, required=True, help="Name has to be a valid string")
@@ -39,7 +46,8 @@ class HelloWorld(Resource):
 
 class SubscriberCollection(Resource):
     def get(self):
-        return {"msg":"All Subscribers..."}
+        # return {"msg":"All Subscribers..."}
+        return users
 
     def post(self):
         # return {"msg":"We will create new subscribers here."}
@@ -50,13 +58,27 @@ class SubscriberCollection(Resource):
 
 class Subscriber(Resource):
     def get(self, id):
-        return {"msg":"Details about user id {}".format(id)}
+        # return {"msg":"Details about user id {}".format(id)}
+        user = get_user_by_id(id)
+        if not user:
+            return {"Error":"User not found"}
+        return user
 
     def put(self, id):
-        return {"msg":"Update user id {}".format(id)}
+        # return {"msg":"Update user id {}".format(id)}
+        args = subscriber_request_parser.parse_args()
+        user = get_user_by_id(id)
+        if user:
+            users.remove(user)
+            users.append(args)
+        return args
 
     def delete(self, id):
-        return {"msg":"Delete user id {}".format(id)}
+        # return {"msg":"Delete user id {}".format(id)}
+        user = get_user_by_id(id)
+        if user:
+            users.remove(user)
+        return {"message":"User Deleted"}
 
 
 # Define Routes to the API Resources.
