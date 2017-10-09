@@ -125,7 +125,8 @@ It doesn’t work without the login. Perfect! We now have a secured API endpoint
 ## Wrapping Up
 
 With the changes made, here’s the full code for this tutorial:
-``
+
+```
 from flask import Flask
 from flask_restful import Resource, Api
 from flask_httpauth import HTTPBasicAuth
