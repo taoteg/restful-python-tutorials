@@ -41,6 +41,7 @@ https://docs.djangoproject.com/en/1.10/intro/tutorial01/
 * [HTTP Status Cats](https://http.cat/)
 * [HTTP Status Dogs](https://httpstatusdogs.com/)
 * [DO NOT USE Basic Auth Ever](https://security.stackexchange.com/questions/988/is-basic-auth-secure-if-done-over-https)
+* [Common Standard Fields](https://en.wikipedia.org/wiki/JSON_Web_Token#Standard_fields)
 * [JSON Web Tokens](https://jwt.io/)
 * [JSON Web Token Libraries](https://jwt.io/#libraries)
 * [PyJWT](https://github.com/jpadilla/pyjwt/)
