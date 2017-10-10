@@ -1,6 +1,7 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework.generics import ListAPIView, CreateAPIView, ListCreateAPIView
+# from rest_framework.generics import ListAPIView, CreateAPIView, ListCreateAPIView
+from rest_framework.viewsets import ModelViewSet
 
 from .serializers import SubscriberSerializer
 from .models import Subscriber
@@ -33,6 +34,14 @@ class SubscriberView(ListAPIView, CreateAPIView):
 
 
 # Using ListCreateAPIView example.
+"""
 class SubscriberView(ListCreateAPIView):
+    serializer_class = SubscriberSerializer
+    queryset = Subscriber.objects.all()
+"""
+
+
+# Using ModelViewSets.
+class SubscriberViewSet(ModelViewSet):
     serializer_class = SubscriberSerializer
     queryset = Subscriber.objects.all()
