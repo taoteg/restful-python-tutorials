@@ -15,10 +15,15 @@ Aggregation of online tutorials into a single codebase for learning RESTful AI d
 * [Securing REST APIs: Basic HTTP Authentication with Python / Flask](http://polyglot.ninja/securing-rest-apis-basic-http-authentication-python-flask/)
 * [JWT Authentication with Python and Flask](http://polyglot.ninja/jwt-authentication-python-flask/)
 * [Django: Building REST APIs](http://polyglot.ninja/django-building-rest-apis/)
+* [Django REST Framework: Getting Started](http://polyglot.ninja/django-rest-framework-getting-started/)
 
 ### TBD Tutorials
 
-* [Django REST Framework: Getting Started](http://polyglot.ninja/django-rest-framework-getting-started/)
+* [DRF: Serializers](http://polyglot.ninja/django-rest-framework-serializers/)
+* [DRF: ModelSerializer and Generic Views](http://polyglot.ninja/django-rest-framework-modelserializer-generic-views/)
+* [DRF: ViewSet, ModelViewSet and Router](http://polyglot.ninja/django-rest-framework-viewset-modelviewset-router/)
+* [DRF: Authentication and Permissions](http://polyglot.ninja/django-rest-framework-authentication-permissions/)
+* [DRF: JSON Web Tokens (JWT)](http://polyglot.ninja/django-rest-framework-json-web-tokens-jwt/)
 
 ### Additional Tutorials
 
