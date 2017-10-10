@@ -1,9 +1,13 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework.generics import ListAPIView, CreateAPIView, ListCreateAPIView
+
 from .serializers import SubscriberSerializer
 from .models import Subscriber
 
 
+# APIView based class example.
+"""
 class SubscriberView(APIView):
     def get(self, request):
         all_subscribers = Subscriber.objects.all()
@@ -17,3 +21,18 @@ class SubscriberView(APIView):
             return Response({"msg":"Created Subscriber {}".format(subscriber_instance.id)})
         else:
             return Response({"errors": serializer.errors})
+"""
+
+
+# Generic Views example.
+"""
+class SubscriberView(ListAPIView, CreateAPIView):
+    serializer_class = SubscriberSerializer
+    queryset = Subscriber.objects.all()
+"""
+
+
+# Using ListCreateAPIView example.
+class SubscriberView(ListCreateAPIView):
+    serializer_class = SubscriberSerializer
+    queryset = Subscriber.objects.all()
