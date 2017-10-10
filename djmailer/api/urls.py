@@ -1,8 +1,9 @@
-# from django.conf.urls import url
+from django.conf.urls import url
 from rest_framework.routers import SimpleRouter
 
 # from .views import SubscriberView
 from .views import SubscriberViewSet
+
 
 """
 urlpatterns = [
@@ -11,8 +12,10 @@ urlpatterns = [
 ]
 """
 
+
 # ModelViewSet urls using Router.
 router = SimpleRouter()
 router.register("subscribers", SubscriberViewSet)
+
 
 urlpatterns = router.urls
