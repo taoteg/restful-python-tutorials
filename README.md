@@ -11,7 +11,7 @@ Aggregation of online tutorials into a single codebase for learning RESTful AI d
 * [Python: Learning Resources and Guidelines](http://polyglot.ninja/python-learning-resources-guidelines/)
 * [REST APIs: The concepts and applications](http://polyglot.ninja/rest-apis-concepts-applications/)
 * [REST API Best Practices: Python & Flask Tutorial](http://polyglot.ninja/rest-api-best-practices-python-flask-tutorial/) _also uses this link: [Flask API Quickstart](http://flask-restful.readthedocs.io/en/0.3.5/quickstart.html)_
-* [Understanding JWT](Understanding JWT (JSON Web Tokens))
+* [Understanding JWT (JSON Web Tokens)](http://polyglot.ninja/understanding-jwt-json-web-tokens/)
 * [Securing REST APIs: Basic HTTP Authentication with Python / Flask](http://polyglot.ninja/securing-rest-apis-basic-http-authentication-python-flask/)
 * [JWT Authentication with Python and Flask](http://polyglot.ninja/jwt-authentication-python-flask/)
 * [Django: Building REST APIs](http://polyglot.ninja/django-building-rest-apis/)
