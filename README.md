@@ -13,16 +13,16 @@ Aggregation of online tutorials into a single codebase for learning RESTful AI d
 * [REST API Best Practices: Python & Flask Tutorial](http://polyglot.ninja/rest-api-best-practices-python-flask-tutorial/) _also uses this link: [Flask API Quickstart](http://flask-restful.readthedocs.io/en/0.3.5/quickstart.html)_
 * [Understanding JWT](Understanding JWT (JSON Web Tokens))
 * [Securing REST APIs: Basic HTTP Authentication with Python / Flask](http://polyglot.ninja/securing-rest-apis-basic-http-authentication-python-flask/)
+* [JWT Authentication with Python and Flask](http://polyglot.ninja/jwt-authentication-python-flask/)
 
 ### TBD Tutorials
 
-* [JWT Authentication with Python and Flask](http://polyglot.ninja/jwt-authentication-python-flask/)
 * [Django: Building REST APIs](http://polyglot.ninja/django-building-rest-apis/)
 * [Django REST Framework: Getting Started](http://polyglot.ninja/django-rest-framework-getting-started/)
 
-## Additional Tutorials
+### Additional Tutorials
 
-https://docs.djangoproject.com/en/1.10/intro/tutorial01/
+* https://docs.djangoproject.com/en/1.10/intro/tutorial01/
 * https://realpython.com/blog/python/test-driven-development-of-a-django-restful-api/
 * https://micropyramid.com/blog/introduction-to-api-development-with-django-rest-framework/
 * https://medium.com/@ktruong008/building-an-api-with-django-rest-framework-and-class-based-views-75b369b30396
