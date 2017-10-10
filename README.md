@@ -15,7 +15,7 @@ Aggregation of online tutorials into a single codebase for learning RESTful AI d
 * [Securing REST APIs: Basic HTTP Authentication with Python / Flask](http://polyglot.ninja/securing-rest-apis-basic-http-authentication-python-flask/)
 * [JWT Authentication with Python and Flask](http://polyglot.ninja/jwt-authentication-python-flask/)
 * [Django: Building REST APIs](http://polyglot.ninja/django-building-rest-apis/)
-* [Django REST Framework: Getting Started](http://polyglot.ninja/django-rest-framework-getting-started/)
+* [Django REST Framework (DRF): Getting Started](http://polyglot.ninja/django-rest-framework-getting-started/)
 
 ### TBD Tutorials
 
