@@ -42,11 +42,18 @@ Aggregation of online tutorials into a single codebase for learning RESTful AI d
 * [HTTP Status Codes](https://httpstatuses.com/)
 * [HTTP Status Cats](https://http.cat/)
 * [HTTP Status Dogs](https://httpstatusdogs.com/)
+
+### Authentication & Tokens
+
 * [DO NOT USE Basic Auth Ever](https://security.stackexchange.com/questions/988/is-basic-auth-secure-if-done-over-https)
-* [Common Standard Fields](https://en.wikipedia.org/wiki/JSON_Web_Token#Standard_fields)
 * [JSON Web Tokens](https://jwt.io/)
+* [Common Standard Fields](https://en.wikipedia.org/wiki/JSON_Web_Token#Standard_fields)
 * [JSON Web Token Libraries](https://jwt.io/#libraries)
 * [PyJWT](https://github.com/jpadilla/pyjwt/)
+* [DRF JWT](https://getblimp.github.io/django-rest-framework-jwt/)
+* [DRF Refresh Token Docs](https://getblimp.github.io/django-rest-framework-jwt/#refresh-token)
+* [DRF Settings Docs](https://getblimp.github.io/django-rest-framework-jwt/#additional-settings)
+* [DRF Customizing Tokens Docs](https://getblimp.github.io/django-rest-framework-jwt/#creating-a-new-token-manually)
 
 ### Development Tools & Utils
 
@@ -63,7 +70,9 @@ Aggregation of online tutorials into a single codebase for learning RESTful AI d
 ### Django
 
 * [Django Framework](https://www.djangoproject.com/)
-* [Django Rest Framework - DRF](http://www.django-rest-framework.org/)
+* [DRF - Django Rest Framework](http://www.django-rest-framework.org/)
+* [DRF APIView Docs](http://www.django-rest-framework.org/api-guide/views/#function-based-views)
+* [DRF API Permissions Docs](http://www.django-rest-framework.org/api-guide/permissions/#api-reference)
 
 #### Dev Notes
 
