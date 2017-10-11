@@ -6,10 +6,12 @@ Aggregation of online tutorials into a single codebase for learning RESTful API 
 
 ## Completed Tutorials
 
-### [Polyglot Ninja: Flask Tutorials](http://polyglot.ninja/)
+### [Polyglot Ninja: REST Tutorials](http://polyglot.ninja/)
 * [Hello Polyglot Ninja!](http://polyglot.ninja/hello-polyglot-ninja/)
 * [Python: Learning Resources and Guidelines](http://polyglot.ninja/python-learning-resources-guidelines/)
 * [REST APIs: The concepts and applications](http://polyglot.ninja/rest-apis-concepts-applications/)
+
+### [Polyglot Ninja: Flask Tutorials](http://polyglot.ninja/rest-api-best-practices-python-flask-tutorial/)
 * [REST API Best Practices: Python & Flask Tutorial](http://polyglot.ninja/rest-api-best-practices-python-flask-tutorial/) _also uses this link: [Flask API Quickstart](http://flask-restful.readthedocs.io/en/0.3.5/quickstart.html)_
 * [Understanding JWT (JSON Web Tokens)](http://polyglot.ninja/understanding-jwt-json-web-tokens/)
 * [Securing REST APIs: Basic HTTP Authentication with Python / Flask](http://polyglot.ninja/securing-rest-apis-basic-http-authentication-python-flask/)
