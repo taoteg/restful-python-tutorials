@@ -2,7 +2,7 @@
 
 _Written by masnunon May 14, 2017_
 
-**(This post is a part of a tutorial series on Building REST APIs in Django)**
+**(This post is a part of a tutorial series on [Building REST APIs in Django](http://polyglot.ninja/django-building-rest-apis/))**
 
 In our last post on Serializers, we learned how to use Serializers with APIViews. In this post we will discuss how ModelSerializer and the Generic views can take things even further.
 

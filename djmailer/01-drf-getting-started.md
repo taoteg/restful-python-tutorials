@@ -3,7 +3,7 @@
 
 _Written by masnunon May 13, 2017_
 
-**(This post is a part of a tutorial series on Building REST APIs in Django)**
+**(This post is a part of a tutorial series on [Building REST APIs in Django](http://polyglot.ninja/django-building-rest-apis/))**
 
 In our last post about Building APIs in Django, we explained why using Django REST Framework would be a good idea. In this post, we will start writing our APIs using this awesome framework. DRF itself works on top of Django and provides many useful functionality that can help with rapid API development.
 

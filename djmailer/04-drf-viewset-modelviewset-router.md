@@ -3,7 +3,7 @@
 
 _Written by masnunon May 14, 2017_
 
-**(This post is a part of a tutorial series on Building REST APIs in Django)**
+**(This post is a part of a tutorial series on [Building REST APIs in Django](http://polyglot.ninja/django-building-rest-apis/))**
 
 In our last blog post on ModelSerializer and Generic Views, we demonstrated how we can use the generic views along with ModelSerializer classes to rapidly develop our REST APIs. In this post, we will discuss about ViewSet and ModelViewset and see how they can speed up building APIs even further. At the same time we will take a look at the concepts of Routers which allow us to manage our api routes in a cleaner fashion.
 

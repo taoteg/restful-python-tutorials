@@ -20,12 +20,9 @@ Aggregation of online tutorials into a single codebase for learning RESTful AI d
 * [DRF: ModelSerializer and Generic Views](http://polyglot.ninja/django-rest-framework-modelserializer-generic-views/)
 * [DRF: ViewSet, ModelViewSet and Router](http://polyglot.ninja/django-rest-framework-viewset-modelviewset-router/)
 * [DRF: Authentication and Permissions](http://polyglot.ninja/django-rest-framework-authentication-permissions/)
-
-### TBD Tutorials
-
 * [DRF: JSON Web Tokens (JWT)](http://polyglot.ninja/django-rest-framework-json-web-tokens-jwt/)
 
-### Additional Tutorials
+### Additional Tutorials to Include (Eventually)
 
 * https://docs.djangoproject.com/en/1.10/intro/tutorial01/
 * https://realpython.com/blog/python/test-driven-development-of-a-django-restful-api/

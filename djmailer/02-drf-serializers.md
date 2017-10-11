@@ -3,7 +3,7 @@
 
 _Written by masnunon May 13, 2017_
 
-**(This post is a part of a tutorial series on Building REST APIs in Django)**
+**(This post is a part of a tutorial series on [Building REST APIs in Django](http://polyglot.ninja/django-building-rest-apis/))**
 
 In our last blog post, Getting started with Django REST Framework, we saw how we could use the APIView and accept inputs from users using `request.data`. In our example, we dealt with string, so it was pretty straightforward. But consider the case of `age` or `account_balance` – one has to be integer, the other has to be float / decimal. How do we properly validate the incoming data?
 

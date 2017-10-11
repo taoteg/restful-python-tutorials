@@ -2,7 +2,7 @@
 
 _Written by MASNUNon MAY 22, 2017_
 
-**(This post is a part of a tutorial series on Building REST APIs in Django)**
+**(This post is a part of a tutorial series on [Building REST APIs in Django](http://polyglot.ninja/django-building-rest-apis/))**
 
 In our last post about ViewSet, ModelViewSet and Router, we saw how easily we can create REST APIs with the awesome Django REST Framework. In this blog post, we would see how we can secure our endpoints with user authentication and permissions. Authentication will help us identify which user is currently logged in and permissions will decide which user(s) can access which resources.
 

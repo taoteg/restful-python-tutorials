@@ -7,7 +7,7 @@ Recently, I have written a few pieces on REST API development. We have discussed
 
 ## Tutorial Index
 
-This is the first part of the series. I shall update the index here as I keep adding new contents.
+This is the first part of the [series](http://polyglot.ninja/django-building-rest-apis/). I shall update the index here as I keep adding new contents.
 
 * Getting Started (This post)
 * Getting Started with Django REST Framework
