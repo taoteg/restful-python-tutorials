@@ -6,7 +6,7 @@ Aggregation of online tutorials into a single codebase for learning RESTful API 
 
 ## Completed Tutorials
 
-### [Polyglot Ninja Tutorials](http://polyglot.ninja/)
+### [Polyglot Ninja: Flask Tutorials](http://polyglot.ninja/)
 * [Hello Polyglot Ninja!](http://polyglot.ninja/hello-polyglot-ninja/)
 * [Python: Learning Resources and Guidelines](http://polyglot.ninja/python-learning-resources-guidelines/)
 * [REST APIs: The concepts and applications](http://polyglot.ninja/rest-apis-concepts-applications/)
@@ -14,6 +14,8 @@ Aggregation of online tutorials into a single codebase for learning RESTful API 
 * [Understanding JWT (JSON Web Tokens)](http://polyglot.ninja/understanding-jwt-json-web-tokens/)
 * [Securing REST APIs: Basic HTTP Authentication with Python / Flask](http://polyglot.ninja/securing-rest-apis-basic-http-authentication-python-flask/)
 * [JWT Authentication with Python and Flask](http://polyglot.ninja/jwt-authentication-python-flask/)
+
+### [Polyglot Ninja: Django Tutorials](http://polyglot.ninja/django-building-rest-apis/)
 * [Django: Building REST APIs](http://polyglot.ninja/django-building-rest-apis/)
 * [DRF (Django REST Framework): Getting Started](http://polyglot.ninja/django-rest-framework-getting-started/)
 * [DRF: Serializers](http://polyglot.ninja/django-rest-framework-serializers/)
