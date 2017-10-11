@@ -2,7 +2,7 @@
 
 ## Intro
 
-Aggregation of online tutorials into a single codebase for learning RESTful AI development practices using Python 2, Python 3, Flask and Django.
+Aggregation of online tutorials into a single codebase for learning RESTful API development practices using Python 2, Python 3, Flask and Django.
 
 ## Completed Tutorials
 
