@@ -67,6 +67,4 @@ Aggregation of online tutorials into a single codebase for learning RESTful AI d
 
 #### Dev Notes
 
-Stopped here: http://polyglot.ninja/django-rest-framework-authentication-permissions/
-
-- Custom Authentication and Permissions
+Resume at 'Additional Tutorials' section.
